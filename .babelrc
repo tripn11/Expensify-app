@@ -1,0 +1,10 @@
+{
+  "presets": [ //conditions for babel to convert the code, env is for es6 conversion to es5 while react converts react to regular js
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "transform-class-properties", //allows the writing of classless js
+    "transform-object-rest-spread" //allows the writing of spread operators in objects
+  ]
+}
